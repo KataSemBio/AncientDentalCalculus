@@ -1,5 +1,2 @@
 # AncientDentalCalculus
-This repository contains overall workflow and generated biomolecular data obtained from ancient dental calculus analysis. 
-
-
-The palaeoproteomic database search was done using FragPipe v24.0 (https://github.com/Nesvilab/FragPipe) against a custom database (2026-11-database.xlsx). Decoys were added directly in FragPipe. Contaminants were provided with cRAP protein sequences (https://www.thegpm.org/crap/).
+The palaeoproteomic database search was done using FragPipe v24.0 (https://github.com/Nesvilab/FragPipe) with MSFragger (v4.4.1) as the search engine. Against a custom database of potential dietary and microbial proteins (2026-11-database.xlsx) and the Oral Signature Screening Database (10.5281/zenodo.3698270). Decoys were added directly in FragPipe. Contaminants were provided with custom cRAP protein sequences (cRAP-26-08.xlsx).
